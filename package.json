@@ -1,6 +1,6 @@
 {
   "name": "staff-code-text-to-svg",
-  "version": "3.1.5-staff-code-3",
+  "version": "3.1.5-staff-code-4",
   "description": "Convert text to SVG path without native dependence.",
   "main": "index.js",
   "files": [
@@ -11,6 +11,7 @@
     "node_modules",
     "gulpfile.js",
     "index.js",
+    "index.d.ts",
     "build",
     "src",
     "test",
