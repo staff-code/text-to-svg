@@ -4,8 +4,6 @@
 
 import * as opentype from 'staff-code-opentype.js';
 
-const DEFAULT_FONT = require('path').join(__dirname, '../fonts/ipag.ttf');
-
 // Private method
 
 function parseAnchorOption(anchor) {
@@ -23,7 +21,7 @@ export default class TextToSVG {
     this.font = font;
   }
 
-  static loadSync(file = DEFAULT_FONT) {
+  static loadSync(file) {
     return new TextToSVG(opentype.loadSync(file));
   }
 
